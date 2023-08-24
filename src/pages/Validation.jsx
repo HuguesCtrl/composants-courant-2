@@ -62,7 +62,7 @@ function Validation() {
   return (
     <div>
       <h2>Entrez vos informations</h2>
-      <form onSubmit={submitForm}>
+      <form onSubmit={submitForm} autoComplete="off">
         <Pseudo
           inputValue={inputValue}
           setInputValue={setInputValue}
