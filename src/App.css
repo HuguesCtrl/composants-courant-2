@@ -31,6 +31,14 @@ body {
   color: #f1f1f1;
 }
 
+
+/* Page d'accueil */
 .home {
   text-align: center;
+}
+
+.home-para {
+  width: 70%;
+  margin: 30px auto;
+  text-align: justify;
 }
