@@ -1,0 +1,25 @@
+.btn-onglets {
+    display: flex;
+    margin: 10px auto;
+}
+
+.btn-onglets>* {
+    flex-grow: 1;
+    border-radius: 0;
+    border-right: 2px solid #f1f1f1;
+}
+
+.btn-onglets button:last-child {
+    border: none;
+}
+
+.onglets {
+    text-align: center;
+}
+
+.onglets-content {
+    border: 3px solid #333;
+    margin: auto;
+    padding: 0 10px;
+    max-width: 80%;
+}

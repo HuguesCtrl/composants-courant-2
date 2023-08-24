@@ -5,19 +5,44 @@ function Navbar() {
     <nav className="menu-principal">
       <ul>
         <li>
-          <NavLink to="/composants-courant-2/">Accueil</NavLink>
+          <NavLink
+            to="/composants-courant-2/"
+            className={({ isActive }) => (isActive ? "strong" : "")}
+          >
+            Accueil
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/composants-courant-2/modale">Modale</NavLink>
+          <NavLink
+            to="/composants-courant-2/modale"
+            className={({ isActive }) => (isActive ? "strong" : "")}
+          >
+            Modale
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/composants-courant-2/onglets">Onglets</NavLink>
+          <NavLink
+            to="/composants-courant-2/onglets"
+            className={({ isActive }) => (isActive ? "strong" : "")}
+          >
+            Onglets
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/composants-courant-2/navbar">Navbar</NavLink>
+          <NavLink
+            to="/composants-courant-2/navbar"
+            className={({ isActive }) => (isActive ? "strong" : "")}
+          >
+            Navbar
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/composants-courant-2/validation">Validation</NavLink>
+          <NavLink
+            to="/composants-courant-2/validation"
+            className={({ isActive }) => (isActive ? "strong" : "")}
+          >
+            Validation
+          </NavLink>
         </li>
       </ul>
     </nav>

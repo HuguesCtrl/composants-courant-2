@@ -1,0 +1,46 @@
+.navResponsive {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.navResponsive ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    margin: 0;
+}
+
+.navResponsive li {
+    list-style-type: none;
+}
+
+.navResponsive a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-icon {
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.menu-icon.none {
+    display: none;
+}
+
+.navResponsive ul.none {
+    display: none;
+}
+
+.navResponsive ul.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}

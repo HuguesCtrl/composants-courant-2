@@ -42,3 +42,8 @@ body {
   margin: 30px auto;
   text-align: justify;
 }
+
+.strong {
+  font-weight: bold;
+  color: #eba5dc !important;
+}
